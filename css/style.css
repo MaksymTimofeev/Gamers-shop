@@ -1,0 +1,33 @@
+body {
+  display: flex;
+}
+.main {
+  margin: 0 auto;
+  width: calc(265px + 265px + 265px + 20px + 20px);
+  padding: 48px 24px;
+  max-width: 100%;
+  border: 1px solid black;
+}
+
+.info {
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info:nth-child(2){
+  margin-left: 57.68px;
+}
+
+.list > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid orange;
+}
+
+
+
+
+
