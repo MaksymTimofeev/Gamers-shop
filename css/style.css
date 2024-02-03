@@ -12,18 +12,18 @@ body {
 .info {
   border: 1px solid blue;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
 }
 
-.info:nth-child(2){
+.info:nth-child(2) {
   margin-left: 57.68px;
 }
 
 .list > div {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   border: 1px solid orange;
 }
 
