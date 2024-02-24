@@ -16,13 +16,13 @@ img.picture {
 img.itemOption {
   width: 398px;
   height: 420px;
-  margin-left: 57.68px;
+  margin-left: 56px;
   margin-bottom: 0px;
   /*border: 1px solid red;*/
 }
 
 .list {
-  padding-top: 103px;
+  padding-top: 35px;
 }
 
 span > img {
@@ -30,8 +30,19 @@ span > img {
   height: 265px;
   /*border: 1px solid red;*/
   margin-bottom: 50px;
+  position: relative;
 }
 
 .item {
   margin-left: 20px;
+}
+
+img {
+  margin-right: -4px;
+  margin-top: -5px;
+}
+
+p {
+  position: relative;
+  bottom: 5px;
 }
