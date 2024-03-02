@@ -1,0 +1,50 @@
+
+.main {
+  margin: 0 auto;
+  width: calc(265px + 265px + 265px + 40px + 48px);
+  padding: 48px 24px;
+  max-width: 100%;
+  border: 3px dashed black;
+  letter-spacing: 0%;
+}
+
+.main span {
+  display: inline-block;
+  border: 1px solid red;
+}
+
+.info {
+  border: 2px dashed blue;
+  letter-spacing: -.36em;
+}
+
+.info > span  {
+  width: calc(50% - 30px);
+  min-height: 420px;
+}
+.interaction {
+  margin-left: 56px;
+}
+
+.list {
+  border: 2px dashed tomato;
+  margin-top: 35px;
+}
+
+.list > .title {
+  padding-bottom: 12px;
+  font-size: xx-large;
+}
+
+.list > div > span  {
+  width: 31.27%;
+  border: 1px solid mediumseagreen;
+  height: 265px;
+  margin-bottom: 50px;
+}
+
+.marginLeft {
+  margin-left: 20px;
+}
+
+
