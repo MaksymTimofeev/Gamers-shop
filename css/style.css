@@ -29,13 +29,13 @@
 .list {
   letter-spacing: -0.36em;
   border: 2px dashed tomato;
-  margin-top: 55px;
+  margin-top: 72px;
 }
 
 .list > .title {
   letter-spacing: 0em;
   padding-bottom: 7px;
-  font-size: xx-large;
+  font-size: xx-large 22px;
 }
 
 .list > div > span {
@@ -47,4 +47,8 @@
 
 .marginLeft {
   margin-left: 20px;
+}
+
+.marginBottom {
+  margin-bottom: -50px;
 }
