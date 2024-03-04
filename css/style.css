@@ -42,7 +42,6 @@
   width: 31.05%;
   border: 1px solid rgb(88, 167, 122);
   height: 265px;
-  margin-bottom: 50px;
 }
 
 .marginLeft {
@@ -50,5 +49,5 @@
 }
 
 .marginBottom {
-  margin-bottom: -50px;
+  margin-bottom: 50px;
 }
