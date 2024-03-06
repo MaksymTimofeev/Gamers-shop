@@ -27,7 +27,8 @@
 }
 
 .list {
-  letter-spacing: -0.36em;
+  /* letter-spacing: -0.36em; */
+
   border: 2px dashed tomato;
   margin-top: 72px;
 }
@@ -39,7 +40,7 @@
 }
 
 .list > div > span {
-  width: 31.05%;
+  width: 31.27%;
   border: 1px solid rgb(88, 167, 122);
   height: 265px;
 }
