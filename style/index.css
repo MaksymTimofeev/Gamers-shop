@@ -13,6 +13,7 @@
 }
 
 .info {
+  display: flex;
   border: 2px dashed blue;
   letter-spacing: -0.36em;
 }
@@ -30,17 +31,17 @@
   /* letter-spacing: -0.36em; */
 
   border: 2px dashed tomato;
-  margin-top: 72px;
+  margin-top: 74px;
 }
 
 .list > .title {
-  letter-spacing: 0em;
+  letter-spacing: 0;
   padding-bottom: 7px;
   font-size: xx-large 22px;
 }
 
 .list > div > span {
-  width: 31.27%;
+  width: 31.535%;
   border: 1px solid rgb(88, 167, 122);
   height: 265px;
 }
