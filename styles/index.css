@@ -18,8 +18,8 @@
   letter-spacing: -0.36em;
 }
 
-.info > span {
-  width: calc(50% - 30px);
+.info > * {
+  width: calc(50% - 29px);
   min-height: 420px;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .list > div > span {
-  width: 31.535%;
+  width: 31.56%;
   border: 1px solid rgb(88, 167, 122);
   height: 265px;
 }
