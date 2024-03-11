@@ -1,4 +1,6 @@
 .preview {
   background-color: #eaf2f4;
-  width: calc(50% - 31px);
+}
+.preview > img {
+  height: 100%;
 }

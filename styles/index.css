@@ -9,8 +9,22 @@
 .info {
   display: flex;
   border: 2px dashed blue;
+<<<<<<< HEAD
   max-height: 420px;
   position: relative;
+=======
+<<<<<<<< HEAD:style/index.css
+  max-height: 420px;
+  position: relative;
+========
+  letter-spacing: -0.36em;
+}
+
+.info > * {
+  width: calc(50% - 29px);
+  min-height: 420px;
+>>>>>>>> 355df50 ([GS-2]Create item preview of top section):styles/index.css
+>>>>>>> 355df50 ([GS-2]Create item preview of top section)
 }
 
 .interaction {
@@ -47,8 +61,17 @@
 }
 
 .list > div > span {
+<<<<<<< HEAD
   width: 31.535%;
 >>>>>>>> df996f1 ([GS-2]Create item preview of top section):style/index.css
+=======
+<<<<<<<< HEAD:style/index.css
+  width: 31.535%;
+>>>>>>>> df996f1 ([GS-2]Create item preview of top section):style/index.css
+========
+  width: 31.56%;
+>>>>>>>> 355df50 ([GS-2]Create item preview of top section):styles/index.css
+>>>>>>> 355df50 ([GS-2]Create item preview of top section)
   border: 1px solid rgb(88, 167, 122);
   height: 265px;
 }
