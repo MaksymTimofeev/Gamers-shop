@@ -1,6 +1,4 @@
 .preview {
+  vertical-align: top;
   background-color: #eaf2f4;
-}
-.preview > img {
-  height: 100%;
 }
