@@ -8,36 +8,34 @@
 
 .info {
   border: 2px dashed blue;
-  letter-spacing: -0.36em;
-}
-
-.info > * {
-  display: inline-block;
-  width: calc(50% - 29px);
-  min-height: 420px;
+  max-height: 420px;
+  position: relative;
 }
 
 .interaction {
   border: 1px solid red;
   margin-left: 56px;
+  display: inline-block;
+  width: calc(50% - 31px);
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .list {
-  /* letter-spacing: -0.36em; */
-
   border: 2px dashed tomato;
   margin-top: 74px;
 }
 
 .title {
-  display: inline-block;
-  letter-spacing: 0;
-  padding-bottom: 7px;
+  font-weight: bold;
+  font-size: 22px;
 }
 
-.list > div > span {
+.list-item {
   display: inline-block;
-  width: 31.56%;
+  width: 31.24%;
   border: 1px solid rgb(88, 167, 122);
   height: 265px;
 }
