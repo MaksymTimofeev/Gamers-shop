@@ -10,6 +10,7 @@
   display: flex;
   border: 2px dashed blue;
 <<<<<<< HEAD
+<<<<<<< HEAD
   max-height: 420px;
   position: relative;
 =======
@@ -25,6 +26,10 @@
   min-height: 420px;
 >>>>>>>> 355df50 ([GS-2]Create item preview of top section):styles/index.css
 >>>>>>> 355df50 ([GS-2]Create item preview of top section)
+=======
+  max-height: 420px;
+  position: relative;
+>>>>>>> dd4956f (.)
 }
 
 .interaction {
@@ -47,6 +52,7 @@
 .title {
   font-weight: bold;
   font-size: 22px;
+<<<<<<< HEAD
 }
 
 .list-item {
@@ -72,6 +78,13 @@
   width: 31.56%;
 >>>>>>>> 355df50 ([GS-2]Create item preview of top section):styles/index.css
 >>>>>>> 355df50 ([GS-2]Create item preview of top section)
+=======
+}
+
+.list-item {
+  display: inline-block;
+  width: 31.24%;
+>>>>>>> dd4956f (.)
   border: 1px solid rgb(88, 167, 122);
   height: 265px;
 }

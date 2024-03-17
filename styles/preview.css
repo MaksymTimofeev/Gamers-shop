@@ -1,5 +1,10 @@
 .preview {
   background-color: #eaf2f4;
+  width: calc(50% - 31px);
+}
+
+.preview > img {
+  letter-spacing: -0.36em;
 }
 .preview > img {
   height: 100%;
