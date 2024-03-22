@@ -4,43 +4,39 @@
   padding: 48px 24px;
   max-width: 100%;
   border: 3px dashed black;
-  letter-spacing: 0%;
-}
-
-.main span {
-  display: inline-block;
-  border: 1px solid red;
 }
 
 .info {
   border: 2px dashed blue;
-  letter-spacing: -0.36em;
-}
-
-.info > span {
-  width: calc(50% - 30px);
-  min-height: 420px;
+  max-height: 420px;
+  position: relative;
 }
 
 .interaction {
+  border: 1px solid red;
   margin-left: 56px;
+  display: inline-block;
+  width: calc(50% - 31px);
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .list {
-  /* letter-spacing: -0.36em; */
-
   border: 2px dashed tomato;
-  margin-top: 72px;
+  margin-top: 74px;
 }
 
-.list > .title {
-  letter-spacing: 0em;
-  padding-bottom: 7px;
-  font-size: xx-large 22px;
+.title {
+  font-weight: bold;
+  font-size: 22px;
 }
 
-.list > div > span {
-  width: 31.27%;
+.list-item {
+  display: inline-block;
+  position: relative;
+  width: 31.24%;
   border: 1px solid rgb(88, 167, 122);
   height: 265px;
 }
