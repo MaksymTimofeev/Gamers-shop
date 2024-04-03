@@ -51,3 +51,7 @@
 .marginBottom {
   margin-bottom: 50px;
 }
+
+body {
+  text-transform: uppercase;
+}
