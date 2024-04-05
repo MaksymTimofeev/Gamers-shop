@@ -2,21 +2,10 @@
   position: absolute;
 }
 
-.long-discount-field {
+.price-field {
   position: absolute;
   top: 221px;
-  left: 117px;
-  width: 148px;
-  height: 22px;
-  background-color: aquamarine;
-}
-
-.short-discount-field {
-  position: absolute;
-  top: 221px;
-  left: 202px;
-  width: 63px;
-  height: 22px;
+  right: 1.5px;
   background-color: aquamarine;
 }
 
@@ -30,36 +19,30 @@
   font-size: 14px;
 }
 
-.long-discount-field > .price {
-  position: absolute;
-  top: 4px;
-  left: 10px;
+.price-field > .price {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: bold;
   font-size: 13.88px;
   text-decoration: line-through;
+  padding: 2px 13.715px;
 }
 
-.long-discount-field > .discount {
-  position: absolute;
-  top: 3px;
-  left: 81px;
+.price-field > .discount {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: bold;
   font-size: 14.5px;
   color: #ce2c52;
+  padding: 2px 13.715px;
 }
 
-.short-discount-field > .base-price {
-  position: absolute;
-  top: 4px;
-  left: 4px;
+.price-field > .base-price {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: bold;
   font-size: 13.88px;
+  padding: 2px 10px;
 }
 
 .shadow {
