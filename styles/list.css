@@ -1,0 +1,42 @@
+.price-field {
+  position: absolute;
+  top: 221px;
+  right: -5px;
+  background-color: aquamarine;
+}
+
+.list-item > span {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.price-field > .price {
+  font-weight: bold;
+  font-size: 13.88px;
+  text-decoration: line-through;
+  padding: 2px 13.715px;
+}
+
+.price-field > .discount {
+  font-weight: bold;
+  font-size: 14.5px;
+  color: #ce2c52;
+  padding: 2px 13.715px;
+}
+
+.price-field > .base-price {
+  font-weight: bold;
+  font-size: 13.88px;
+  padding: 2px 10px;
+}
+
+.shadow {
+  width: 101.8%;
+}
+
+.shadow:hover {
+  box-shadow: 1px 1px 5px grey, -1px -1px 5px grey, 1px -1px 5px grey,
+    -1px 1px 5px grey;
+}
